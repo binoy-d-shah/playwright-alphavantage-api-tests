@@ -1,0 +1,32 @@
+{
+  "name": "playwright-alphavantage-api-tests",
+  "version": "1.0.0",
+  "description": "Automated API testing for Alpha Vantage endpoints using Playwright. This repository contains Playwright-based test automation scripts to validate the Stock Time Series Data API (TIME_SERIES_DAILY) and Currency Exchange Rate API (CURRENCY_EXCHANGE_RATE).",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binoy-d-shah/playwright-alphavantage-api-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binoy-d-shah/playwright-alphavantage-api-tests/issues"
+  },
+  "homepage": "https://github.com/binoy-d-shah/playwright-alphavantage-api-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10",
+    "dotenv": "^16.4.7"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright": "^1.51.0",
+    "playwright-core": "^1.51.0",
+    "undici-types": "^6.20.0"
+  }
+}
