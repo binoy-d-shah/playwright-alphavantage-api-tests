@@ -112,34 +112,6 @@ npx playwright show-report
 
 ---
 
-## 🚀 CI/CD Integration  
-
-You can integrate Playwright tests with **GitHub Actions** for automated execution.  
-
-Example **GitHub Actions workflow** (`.github/workflows/playwright.yml`):  
-```yml
-name: Playwright Tests
-on: [push, pull_request]
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run Playwright tests
-        run: npx playwright test
-
-      - name: Generate Report
-        run: npx playwright test --reporter=html
-```
-
----
-
 ## 📌 Additional Features  
 ✔ **TypeScript Support** – Ensures type safety and better code organization.  
 ✔ **Environment Variables** – API keys are stored securely in `.env` files.  
