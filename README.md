@@ -13,7 +13,7 @@ The automation includes:
 ✔ API response validation (structure & data)  
 ✔ Positive & negative test scenarios  
 ✔ Security headers
-✔ Automated execution with **HTML reporting**  
+✔ Automated execution with **HTML reporting**
 
 ---
 
